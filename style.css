@@ -1,0 +1,78 @@
+
+body {
+    background: linear-gradient(120deg, #56ba3f, #f2dc38);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.container {
+    border: 3px solid rgba(0,0,0,0.6);
+    border-radius: 10px;
+    width: 40%;
+    padding: 25px 25px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card {
+    border: 3px solid rgba(0,0,0,0.6);
+    border-radius: 10px;
+    width: 100px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    transition: all .1s ease-in-out;
+}
+
+.card p {
+    margin: 1px;
+}
+
+.card:hover {
+    transform: scale(1.1); 
+    border: 3px solid rgba(0,0,0,1);
+}
+
+.card:active {
+    background-color: beige;
+}
+
+.town {
+    background-color: #49ff20;
+}
+
+.mafia {
+    background-color: #ff2020;
+}
+
+.neutral {
+    background-color: #a8a8a8;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+img {
+    width: 50px
+}
